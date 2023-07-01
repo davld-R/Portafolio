@@ -1,0 +1,11 @@
+.banner h1 {
+  font-size: 52px;
+  font-weight: 700;
+  padding-bottom: 24px;
+}
+
+.banner p {
+  font-size: 1.5rem;
+  font-weight: 400;
+  padding-bottom: 24px;
+}

@@ -1,0 +1,14 @@
+.menu__imagen {
+  display: flex;
+  align-items: center;
+}
+
+.menu__imagen img {
+  margin-right: 8px;
+}
+
+.menu__imagen p {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 700;
+}

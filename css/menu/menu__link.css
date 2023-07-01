@@ -1,0 +1,14 @@
+.menu__link {
+  margin-right: 1.25rem;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 400;
+  color: #464646;
+}
+.menu__link-activo {
+  margin-right: 1.25rem;
+  color: #464646;
+  font-style: normal;
+  font-weight: 700;
+  font-family: DM Sans;
+}

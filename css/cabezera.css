@@ -1,15 +1,6 @@
 .cabezera {
   display: flex;
   justify-content: space-between;
-
   align-items: center;
   padding: 32px 0px;
-}
-
-.menu__lista {
-  display: flex;
-}
-
-.menu__link {
-  margin-right: 1.25rem;
 }

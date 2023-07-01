@@ -1,0 +1,8 @@
+.banner__lista {
+  display: flex;
+  align-items: center;
+}
+
+.banner__lista img {
+  margin-right: 2rem;
+}
