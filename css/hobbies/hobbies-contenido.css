@@ -1,0 +1,19 @@
+.hobbies__contenido {
+  display: flex;
+}
+
+.hobbies__items {
+  display: flex;
+  flex-direction: column;
+  width: 176px;
+  height: 145px;
+  padding: 1rem;
+  background-color: var(--preto-branco);
+  margin-right: 1rem;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+.hobbies__items img {
+  margin-bottom: 1rem;
+}

@@ -1,0 +1,11 @@
+.sobre__contenido {
+  display: flex;
+  flex-direction: column;
+  width: 751px;
+}
+
+.sobre__contenido p {
+  color: var(--preto-100);
+  font-weight: 400;
+  padding-bottom: 1rem;
+}
