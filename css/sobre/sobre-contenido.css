@@ -8,4 +8,5 @@
   color: var(--preto-100);
   font-weight: 400;
   padding-bottom: 1rem;
+  text-align: justify;
 }
