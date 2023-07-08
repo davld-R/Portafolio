@@ -1,0 +1,21 @@
+.contenedor__datos {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1rem;
+}
+
+.contenedor__datos h1 {
+  color: var(--preto-100);
+  font-size: 2rem;
+  font-weight: 700;
+  padding-bottom: 0.5rem;
+}
+
+.contenedor__datos p {
+  color: var(--preto-100);
+  font-weight: 500;
+}
+
+.contenedor__datos-item {
+  margin-bottom: 2rem;
+}

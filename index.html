@@ -32,6 +32,11 @@
     <link rel="stylesheet" href="css/formacion/formacion-contenido.css" />
     <link rel="stylesheet" href="css/experiencia/experiencia.css" />
     <link rel="stylesheet" href="css/experiencia/experiencia-titulo.css" />
+    <link rel="stylesheet" href="css/contacto/contacto.css" />
+    <link rel="stylesheet" href="css/contacto/contacto-contenido.css" />
+    <link rel="stylesheet" href="css/contacto/contacto-datos.css" />
+    <link rel="stylesheet" href="css/contacto/contacto-formulario.css" />
+    <link rel="stylesheet" href="css/footer.css" />
   </head>
   <body>
     <header class="cabezera contenedor">
@@ -192,10 +197,46 @@
       </section>
 
       <section class="contacto">
-        <h1>contacto</h1>
+        <div class="contenedor contacto__contenido">
+          <img src="./img/phone.jpg" alt="" />
+          <div class="contenedor__datos">
+            <h1>Contacto</h1>
+            <p>¿Quieres contactarme?</p>
+            <p class="contenedor__datos-item">
+              Complete el siguiente formulario y me pondré en contacto con usted
+              lo antes posible
+            </p>
+            <form action="" class="contacto__formulario">
+              <div class="contacto__formulario-item">
+                <label for="">Nombre</label>
+                <input type="text" />
+              </div>
+              <div class="contacto__formulario-item">
+                <label for="">E-mail</label>
+                <input type="email" />
+              </div>
+              <div class="contacto__formulario-item">
+                <label for="">Asunto</label>
+                <input type="text" />
+              </div>
+              <div class="contacto__formulario-item">
+                <label for="">Mensaje</label>
+                <textarea name="" id="" cols="30" rows="5"></textarea>
+              </div>
+              <div>
+                <button type="submit">Enviar mensaje</button>
+              </div>
+            </form>
+          </div>
+        </div>
       </section>
     </main>
 
-    <footer></footer>
+    <footer class="footer">
+      <section class="contenedor footer__contenido">
+        <h1>Desarrollado por Juan David Rojas Rosero</h1>
+        <h1>2023</h1>
+      </section>
+    </footer>
   </body>
 </html>

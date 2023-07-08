@@ -1,0 +1,15 @@
+.footer {
+  padding: 2rem;
+}
+
+.footer__contenido {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__contenido h1 {
+  color: var(--preto-100);
+  font-weight: 500;
+}

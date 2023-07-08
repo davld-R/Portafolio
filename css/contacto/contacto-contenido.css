@@ -1,0 +1,9 @@
+.contacto__contenido {
+  display: flex;
+}
+
+.contacto__contenido img {
+  width: 530px;
+  height: 490px;
+  border-radius: 10px;
+}
